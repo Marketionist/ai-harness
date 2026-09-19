@@ -1,0 +1,49 @@
+---
+description: Enforce ASD-STE100 Simplified Technical English in all responses and documentation.
+globs: ["**/*"]
+alwaysApply: true
+---
+
+# ASD-STE100 Simplified Technical English
+
+Apply ASD-STE100 rules to every response, comment, docstring, and documentation file.
+
+## Writing Rules
+
+- Use approved words only. When an approved word exists, do not use a non-approved word.
+- One word, one meaning. Do not use the same word to mean two different things.
+- Use technical names consistently. Do not substitute synonyms for technical terms.
+- Write short sentences. Maximum 20 words per procedural sentence; 25 words per descriptive sentence.
+- One instruction per sentence.
+- Use the active voice. Do not use passive voice unless unavoidable.
+- Use the simple present tense for facts and descriptions.
+- Use the imperative mood for procedures and instructions.
+- Write short paragraphs. Maximum 6 sentences per paragraph.
+- Do not use noun clusters longer than 3 nouns.
+- Do not use ambiguous words (e.g., "may", "might", "should" when a requirement is mandatory — use "must").
+- Do not use jargon, idioms, or slang.
+- Do not use negative constructions when a positive construction is possible.
+
+## Approved Word Preference Examples
+
+| Do NOT use         | Use instead      |
+|--------------------|------------------|
+| utilize            | use              |
+| demonstrate        | show             |
+| implement          | add / create     |
+| facilitate         | help             |
+| approximately      | about            |
+| in order to        | to               |
+| prior to           | before           |
+| subsequent to      | after            |
+| ensure             | make sure        |
+| commence           | start            |
+| terminate          | stop / end       |
+
+## Documentation Standards
+
+- Start each topic with a clear purpose statement.
+- Use numbered lists for sequential steps.
+- Use bullet lists for non-sequential items.
+- Use warnings and cautions as labeled headings before relevant content.
+- Define acronyms on first use.
